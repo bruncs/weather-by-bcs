@@ -1,0 +1,16 @@
+.container {
+  color: #ffffff;
+  background-color: #E22A4C;
+  width: 300px;
+  min-height: 50px;
+  border-radius: 10px;
+  padding: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container img {
+  margin-right: 10px;
+}

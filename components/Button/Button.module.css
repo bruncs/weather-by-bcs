@@ -1,0 +1,23 @@
+.button {
+  background-image: linear-gradient(#FB5A17, #E22A4C);
+  color: #ffffff;
+  outline: none;
+  border: none;
+
+  min-width: 320px;
+  min-height: 40px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 10px;
+
+  cursor: pointer;
+  pointer-events: all;
+  font-weight: 600;
+  font-size: 0.8rem;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+
+.button:disabled {
+  opacity: 0.5;
+}

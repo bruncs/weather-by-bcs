@@ -1,0 +1,14 @@
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  padding: 20px;
+
+  position: relative;
+  z-index: 1;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  pointer-events: none;
+}

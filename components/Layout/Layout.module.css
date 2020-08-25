@@ -1,0 +1,16 @@
+.overlayContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.overlayHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.overlayContent {
+  display: flex;
+  justify-content: flex-end;
+}

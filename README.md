@@ -1,30 +1,76 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Weather by BCS
 
-## Getting Started
+Weather by BCS is a project created for a code assignment.
 
-First, run the development server:
+## Installation
+
+Install dependencies using npm or yarn
+
+```bash
+npm install
+```
+```bash
+yarn install
+```
+
+## Usage
+
+Run the script below, using npm or yarn, to start the development server:
 
 ```bash
 npm run dev
-# or
+```
+```bash
 yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-## Learn More
+## Prerequisite
 
-To learn more about Next.js, take a look at the following resources:
+- You need to be connected to the internet.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Technologies Used
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Despite the code assignment demanded a simple application, with much less libraries, I choose to exemplify how would be the code base for a scalable frontend application. I know that, for real life applications, this is considered over-engineering. But in order to show how to setup a Redux store properly, with data normalization, error handling, and so on, I used the technologies below. I listed under each techonlogy the advantages that I considered important when picking it.
 
-## Deploy on Vercel
+### TypeScript
+- Static typing
+- Code scalability
+- ECMAScript compliance
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### React Google Maps API
+- Good documentation
+- Easy integration
+- Easy customization
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Next.js
+- Automatic compilation, bundling and
+- Code splitting
+- TypeScript support
+- Built-in CSS support
+- Fast refresh at development environment
+
+### Redux
+- Predictable state updates
+- Centralized state
+- Easier to test
+
+### Redux Saga
+- Popularity
+- Open source community support
+
+### Normalizr
+- Makes frontend able to handle different shapes of API responses
+- Recommended by Redux documentation
+
+### Axios
+- Supports older browsers
+- Enables request and response interceptors
+
+## Additional Info
+It was intented to strictly attend the functional requirements listed on the code assignment description. Not including additional features or undemanded requirements.
+
+## Author
+[Bruno Correia Silva](https://www.linkedin.com/in/bruncs/)
